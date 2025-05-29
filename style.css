@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'ExpoArabicBold';
+    src: url('../fonts/expoarabic-blod 2.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  h1, p, body .arabic-text {
+    font-family: 'ExpoArabicBold', sans-serif;
+  }
+
+  .custom-header {
+    background-color: #f8f9fa; /* Optional: light background */
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: soft shadow */
+    padding: 1rem 2rem;
+  }
+
+  .container.custom-wide {
+    max-width: 100%;
+  }
+  
